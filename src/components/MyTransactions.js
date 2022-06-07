@@ -68,8 +68,12 @@ class MyTransactions extends Component {
                 <thead>
                   <tr>
                     <th>Time</th>
-                    <th>DAPP</th>
-                    <th>DAPP/ETH</th>
+                    <th>do {
+                      DAPP
+                    } while (condition);</th>
+                    <th>do {
+                      DAPP
+                    } while (condition);/ETH</th>
                   </tr>
                 </thead>
                 { this.props.showMyFilledOrders ? showMyFilledOrders(this.props) : <Spinner type="table" />}
@@ -80,7 +84,9 @@ class MyTransactions extends Component {
                 <thead>
                   <tr>
                     <th>Amount</th>
-                    <th>DAPP/ETH</th>
+                    <th>do {
+                      DAPP
+                    } while (condition);/ETH</th>
                     <th>Cancel</th>
                   </tr>
                 </thead>
