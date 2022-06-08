@@ -66,14 +66,14 @@ library SafeMath {
     }
 }
 
-pragma solidity ^0.5.0;
+pragma solidity >=0.4.0 <0.9.0;
 
 contract Token {
     using SafeMath for uint;
 
     // Variables
-    string public name = "DApp Token";
-    string public symbol = "DAPP";
+    string public name = DOE Token";
+    string public symbol = DOE";
     uint256 public decimals = 18;
     uint256 public totalSupply;
     mapping(address => uint256) public balanceOf;
@@ -117,7 +117,7 @@ contract Token {
     }
 }
 
-pragma solidity ^0.5.0;
+pragma solidity >=0.4.0 <0.9.0;
 
 contract Exchange {
     using SafeMath for uint;

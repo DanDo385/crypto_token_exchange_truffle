@@ -69,10 +69,10 @@ class MyTransactions extends Component {
                   <tr>
                     <th>Time</th>
                     <th>do {
-                      DAPP
+                      DOE
                     } while (condition);</th>
                     <th>do {
-                      DAPP
+                      DOE
                     } while (condition);/ETH</th>
                   </tr>
                 </thead>
@@ -85,7 +85,7 @@ class MyTransactions extends Component {
                   <tr>
                     <th>Amount</th>
                     <th>do {
-                      DAPP
+                      DOE
                     } while (condition);/ETH</th>
                     <th>Cancel</th>
                   </tr>

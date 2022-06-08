@@ -1,4 +1,4 @@
-// File: openzeppelin-solidity/contracts/math/SafeMath.sol
+// SPDX-License-Identifier: UNLICENSED
 
 pragma solidity >=0.4.0 <0.9.0;
 
