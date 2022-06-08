@@ -72,7 +72,7 @@ contract Token {
     using SafeMath for uint;
 
     // Variables
-    string public name = DOE Token";
+    string public name = "DOE Token";
     string public symbol = DOE";
     uint256 public decimals = 18;
     uint256 public totalSupply;
