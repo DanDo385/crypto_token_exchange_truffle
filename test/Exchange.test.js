@@ -10,14 +10,14 @@ require('chai')
 contract('Exchange', ([deployer, feeAccount, user1, user2]) => {
   let token
   let exchange
-  const feePercent = 9
+  const feePercent = 10
 
   beforeEach(async () => {
     // Deploy token
     token = await Token.new()
 
     // Transfer some tokens to user1
-    token.transfer(user1, tokens(132), { from: deployer })
+    token.transfer(user1, tokens(100), { from: deployer })
 
     // Deploy exchange
     exchange = await Exchange.new(feeAccount, feePercent)
@@ -243,7 +243,7 @@ contract('Exchange', ([deployer, feeAccount, user1, user2]) => {
       // user1 deposits ether only
       await exchange.depositEther({ from: user1, value: ether(1) })
       // give tokens to user2
-      await token.transfer(user2, tokens(132), { from: deployer })
+      await token.transfer(user2, tokens(100), { from: deployer })
       // user2 deposits tokens only
       await token.approve(exchange.address, tokens(2), { from: user2 })
       await exchange.depositToken(token.address, tokens(2), { from: user2 })

@@ -1,6 +1,7 @@
-// SPDX-License-Identifier: UNLICENSED
 
-pragma solidity >=0.4.0 <0.9.0;
+// File: openzeppelin-solidity/contracts/math/SafeMath.sol
+
+pragma solidity ^0.5.0;
 
 /**
  * @title SafeMath
@@ -68,7 +69,7 @@ library SafeMath {
 
 // File: src/contracts/Token.sol
 
-pragma solidity >=0.4.0 <0.9.0;
+pragma solidity ^0.5.0;
 
 
 contract Token {

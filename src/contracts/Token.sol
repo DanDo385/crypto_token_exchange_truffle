@@ -1,6 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
-
-pragma solidity >=0.4.0 <0.9.0;
+pragma solidity ^0.5.0;
 
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 
@@ -8,8 +6,8 @@ contract Token {
   using SafeMath for uint;
 
   // Variables
-  string public name = "DOE Token";
-  string public symbol = "DOE";
+  string public name = "DApp Token";
+  string public symbol = "DAPP";
   uint256 public decimals = 18;
   uint256 public totalSupply;
   mapping(address => uint256) public balanceOf;
