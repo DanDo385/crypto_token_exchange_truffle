@@ -1,7 +1,7 @@
 {
   "name": "monsterproject",
   "version": "0.2.0",
-  "description": "Decentralized Ethereum Token Exchange",
+  "description": "DOe Decentralized Ethereum Token Exchange",
   "author": "djm385@icloud.com",
   "private": false,
   "homepage": ".",
@@ -31,14 +31,14 @@
     "react-dom": "18.2.0",
     "react-redux": "8.0.1",
     "react-scripts": "5.0.1",
-    "redux": "4.1.7",
+    "redux": "4.2.0",
     "redux-logger": "3.0.6",
-    "reselect": "4.1.5",
-    "solidity-coverage": "0.7.20",
-    "truffle": "5.5.18",
+    "reselect": "4.1.6",
+    "solidity-coverage": "0.7.21",
+    "truffle": "5.5.19",
     "truffle-flattener": "1.6.0",
     "truffle-hdwallet-provider-privkey": "0.3.0",
-    "web3": "1.7.3"
+    "web3": "1.7.4"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-expressions */
+/* eslint-disable no-undef */
 import { tokens, ether, EVM_REVERT, ETHER_ADDRESS } from './helpers'
 
 const Token = artifacts.require('./Token')
