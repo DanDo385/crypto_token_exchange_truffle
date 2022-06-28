@@ -7,7 +7,7 @@ contract Token {
 
   // Variables
   string public name = "DOE Token";
-  string public symbol = "DOE";
+  string public symbol = "dOE";
   uint256 public decimals = 18;
   uint256 public totalSupply;
   mapping(address => uint256) public balanceOf;

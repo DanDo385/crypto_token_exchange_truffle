@@ -86,7 +86,7 @@ module.exports = async function(callback) {
     await wait(1)
 
     // User 1 makes another order
-    result = await exchange.makeOrder(token.address, tokens(50), ETHER_ADDRESS, ether(0.001), { from: user1 })
+    result = await exchange.makeOrder(token.address, tokens(50), ETHER_ADDRESS, ether(0.00102), { from: user1 })
     console.log(`Made order from ${user1}`)
 
     // User 2 fills another order
@@ -98,7 +98,7 @@ module.exports = async function(callback) {
     await wait(1)
 
     // User 1 makes final order
-    result = await exchange.makeOrder(token.address, tokens(200), ETHER_ADDRESS, ether(0.015), { from: user1 })
+    result = await exchange.makeOrder(token.address, tokens(200), ETHER_ADDRESS, ether(0.0123), { from: user1 })
     console.log(`Made order from ${user1}`)
 
     // User 2 fills final order
@@ -113,17 +113,17 @@ module.exports = async function(callback) {
     // Seed Open Orders
     //
 
-    // User 1 makes 10 orders
-    for (let i = 1; i <= 10; i++) {
-      result = await exchange.makeOrder(token.address, tokens(10 * i), ETHER_ADDRESS, ether(0.001), { from: user1 })
+    // User 1 makes 72 orders
+    for (let i = 1; i <= 72; i++) {
+      result = await exchange.makeOrder(token.address, tokens(10 * i), ETHER_ADDRESS, ether(0.000933), { from: user1 })
       console.log(`Made order from ${user1}`)
       // Wait 1 second
       await wait(1)
     }
 
-    // User 2 makes 10 orders
-    for (let i = 1; i <= 10; i++) {
-      result = await exchange.makeOrder(ETHER_ADDRESS, ether(0.001), token.address, tokens(10 * i), { from: user2 })
+    // User 2 makes 45 orders
+    for (let i = 1; i <= 45; i++) {
+      result = await exchange.makeOrder(ETHER_ADDRESS, ether(0.001011), token.address, tokens(10 * i), { from: user2 })
       console.log(`Made order from ${user2}`)
       // Wait 1 second
       await wait(1)
