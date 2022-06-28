@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.8.9;
 
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 
@@ -7,7 +7,7 @@ contract Token {
 
   // Variables
   string public name = "DOE Token";
-  string public symbol = "dOE";
+  string public symbol = "DOE";
   uint256 public decimals = 18;
   uint256 public totalSupply;
   mapping(address => uint256) public balanceOf;

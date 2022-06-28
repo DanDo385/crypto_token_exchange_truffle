@@ -80,7 +80,7 @@ const showForm = (props) => {
           makeSellOrder(dispatch, exchange, token, web3, sellOrder, account)
         }}>
         <div className="form-group small">
-          <label>Buy Sell (DAPP)</label>
+          <label>Buy Sell (DOE)</label>
           <div className="input-group">
             <input
               type="text"

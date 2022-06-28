@@ -1,7 +1,7 @@
 
 // File: openzeppelin-solidity/contracts/math/SafeMath.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.8.9;
 
 /**
  * @title SafeMath
@@ -69,15 +69,15 @@ library SafeMath {
 
 // File: src/contracts/Token.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.8.9;
 
 
 contract Token {
     using SafeMath for uint;
 
     // Variables
-    string public name = "DApp Token";
-    string public symbol = "DAPP";
+    string public name = "DOE Token";
+    string public symbol = "dOE";
     uint256 public decimals = 18;
     uint256 public totalSupply;
     mapping(address => uint256) public balanceOf;

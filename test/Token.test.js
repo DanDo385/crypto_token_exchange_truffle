@@ -6,7 +6,7 @@ require('chai')
   .should()
 
 contract('Token', ([deployer, receiver, exchange]) => {
-  const name = 'DOe Token'
+  const name = 'dOE Token'
   const symbol = 'DOE'
   const decimals = '18'
   const totalSupply = tokens(1000000).toString()

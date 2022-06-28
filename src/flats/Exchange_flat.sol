@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.8.9;
 
 /**
  * @title SafeMath
@@ -64,7 +64,7 @@ library SafeMath {
     }
 }
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.8.9;
 
 contract Token {
     using SafeMath for uint;
@@ -115,7 +115,7 @@ contract Token {
     }
 }
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.8.9;
 
 contract Exchange {
     using SafeMath for uint;
